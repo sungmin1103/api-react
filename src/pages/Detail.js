@@ -19,6 +19,7 @@ const Detail=()=>{
             setTravel(data);
         } 
     }, [UC_SEQ, result]);
+    
     if(!travel){
         return <div>여행정보를 읽어오는 중입니다...</div>
     } else {
